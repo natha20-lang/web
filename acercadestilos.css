@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+   background: #f781b4;
+background: radial-gradient(circle,rgba(247, 129, 180, 1) 35%, rgba(125, 171, 227, 1) 99%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo h1 {
+    color: black;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+nav a.active {
+  color: black;
+}
+
+nav ul a {
+      color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+nav ul li strong {
+    color: black;
+}
+
+
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px;
+
+}
+
+.info-box {
+    
+background: #FAEBD7;
+  border-radius: 20px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /crea una sombra suave y difuminada alrededor de un elemento/
+  text-align: center;
+ 
+}
+
+.info-box h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+
+.info-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}

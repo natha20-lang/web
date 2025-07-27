@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<title>buscador de productos</title>
+  <link rel="stylesheet" type="text/css" href="estilosmenu.css">
+</head>
+<body>
+
+     <header>
+
+      <div class="logo">
+      <img src="quetzal.png" alt="Logo">
+      <div class="title">Sabores de mi <br>tierra</div>
+    </div>
+    <nav>
+      <ul>
+          <li><a href="index.html#">inicio</a></li>
+        <li><a class="active" href="index1.html#">Menú</a></li>
+        <li><a href="acercade.html#">Acerca de</a></li>
+        <li><a href="redes.html#">Redes Sociales</a></li>
+        <li><a href="servicios.html">Servicios</a ></li>
+      </ul>
+    </nav>
+ 
+      
+    </div>
+     </header>
+        <div class="search-container">
+         <input type="text" id="searchInput" placeholder="Buscar menú...">
+         <button onclick="filterProducto()">buscar</button>
+</div>
+<main class="container">
+       <ul id="product-list">
+        <li data-category="desayunos" onclick="toggleZoom(this)">
+          <h3>Panqueques</h3>
+          <p>Tres panqueques esponjosos, servidos con rica miel de maple y un toque de crema dulce. ¡Perfectos para un desayuno!       </p>
+          <div class="b2">
+          <img src="https://images.squarespace-cdn.com/content/v1/660b0a408017fa7b58092184/385f8c06-3bae-458a-beca-3aecdc169360/06-Panqueques+del+canche.jpg" width="400" height="150">
+        </li>
+       </div>
+<li data-category="desayunos" onclick="toggleZoom(this)">
+          <h3>Omelette</h3>
+          <p>Omelette relleno de champiñones, zucchini, tomate fresco, cebolla y mozzarella, conoronado con un pico de gallo. Servido con frijol cremoso y una salsa verde. ¡Una buena elección para los amantes de los sabores frescos! </p>
+          <div class="b2">
+          <img src="https://images.squarespace-cdn.com/content/v1/660b0a408017fa7b58092184/6b464065-e1bc-4cfc-b456-a543c855fcd9/10-Omellette.jpg" width="350" height="150">
+        </li>
+              </div>
+<li data-category="desayunos" onclick="toggleZoom(this)">
+          <h3>Chuchitos</h3>
+          <p>Preparado con maíz natural, recado con carne, envueltos en una tuza de maíz, cocido con leña, puedes acompañar con salsa de tomate, queso duro espolvoreado, con cebolla y perejil.  </p>
+          <div class="b2">
+          <img src="https://storage.googleapis.com/patsy-ecommerce.appspot.com/small_4_CHUCHITOS_2ce3014c7d" width="250" height="150">
+        </li>
+              </div>
+              <li data-category="desayunos" onclick="toggleZoom(this)">
+          <h3>Desayuno Tecpán</h3>
+          <p>Huevos preparados a su elección, servido junto a tortillas calientes con queso derretido, frijoles volteados, platanos fritos, queso panela fresco y un delicioso chirmolito. También le puedes agregar longaniza. ¡Una combinación perfecta para comenzar tu dia!  </p>
+          <div class="b2">
+          <img src="https://images.squarespace-cdn.com/content/v1/660b0a408017fa7b58092184/f85c3849-d27d-482a-a955-28f679ea090b/02-Tecpan.jpg" width="350" height="150">
+        </li>
+              </div>
+              </div>
+<li data-category="desayunos" onclick="toggleZoom(this)">
+          <h3>Arroz con leche</h3>
+          <p>Arroz esponjoso cocido con canela, para luego agregar vainilla y leche a su elección, al momento de servirlo se puede espolvorear canela para deocrarlo.   </p>
+          <div class="b2">
+          <img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2024/11/arroz-con-leche-1024x683.jpg" width="250" height="150">
+        </li>
+              </div>
+              
+
+
+
+
+       </ul>
+      <script src="funcion1.js"></script>
+
+
+
+       </ul>
+      
+    
+  </script>
+</body>
+</html>
